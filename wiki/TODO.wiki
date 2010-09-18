@@ -1,5 +1,5 @@
 #labels Phase-Design
-= ~~TODO~~TO LEARN for version 0.5=
+= ~~TODO~~ TO LEARN for version 0.5=
   * Use database to save notification options.
   * Make a selection list, save it, and bring it back with database.
   * Closing a Wifi conection.
