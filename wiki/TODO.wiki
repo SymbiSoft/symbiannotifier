@@ -1,9 +1,12 @@
-#labels Phase-Design
 = ~~TODO~~ TO LEARN for version 0.5=
   * Use database to save notification options.
+    *  ~~Made a serialization to write and read~~
   * Make a selection list, save it, and bring it back with database.
+    *  ~~Multiselection list discarded now forms manipulation learned~~
   * Closing a Wifi conection.
   * Learn how to subprocesses work.
   * Read sms messages.
+    *  ~~Readed contact number and content of last message~~
   * Read real symbian notifications.
   * Detect a real call.
+  * See/get a video or a series of screenshots of the official android app
