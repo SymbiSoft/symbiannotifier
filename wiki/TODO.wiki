@@ -1,3 +1,4 @@
+#labels Phase-Design
 = ~~TODO~~ TO LEARN for version 0.5=
   * Use database to save notification options.
     *  ~~Made a serialization to write and read~~
@@ -11,3 +12,7 @@
   * Detect a real call.
   * See/get a video or a series of screenshots of the official android app
   * Send a ping to the desktop app.
+  * ~~Send a notification over UDP with broadcast and over TCP~~
+
+==Problems==
+I could only send notifications to LinDroidNotifier and just one per execution, android-notifier-desktop does not show sign of living.
