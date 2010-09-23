@@ -10,4 +10,4 @@
   * Read real symbian notifications.
   * Detect a real call.
   * See/get a video or a series of screenshots of the official android app
-
+  * Send a ping to the desktop app.
