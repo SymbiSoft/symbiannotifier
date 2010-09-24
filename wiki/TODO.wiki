@@ -9,7 +9,7 @@
   * Read sms messages.
     *  ~~Number of the las contact and his message readed~~
   * Read real symbian notifications.
-  * Detect a real call.
+  * ~~Detect a real call.~~
   * See/get a video or a series of screenshots of the official android app
   * Send a ping to the desktop app.
   * ~~Send a notification over UDP with broadcast and over TCP~~
