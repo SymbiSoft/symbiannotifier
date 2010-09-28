@@ -15,22 +15,21 @@ class preferences:
             import cPickle as pickle
         except ImportError:
             import pickle
-        archivo = file("notfierprf.dat","w",2)
-
+        archivo = file("pe.dat","w",2)
         for element in metalist:
-            pickle.dump(element,archivo)
+            pickle.dump(element[2][1],archivo)
         archivo.close()
 
-    def leerNumero(self):
+    def leerArchivo(self):
         """Retrieves the preferences data"""
         try:
             import cPickle as pickle
         except ImportError:
             import pickle
         try:
-            archivo = file("notfierprf.dat")
-            for i in range(3):
-                preferencias=pickle.load(archivo)
+            archivo = file("pe.dat")
+            preferencias=[(u'SMS\'s','combo',(opciones,int(pickle.load(archivo)))),(u'Calls','combo',(opciones,int(pickle.load(archivo)))),(u'Battery','combo',(opciones,int(pickle.load(archivo)))),(u'Other','combo',(opciones,int(pickle.load(archivo))))] #0 No, 1 Yes
+            archivo.close()
         except EnvironmentError:
             print "No existe archivo"
             preferencias = self.preferencias
